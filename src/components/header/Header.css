@@ -1,0 +1,122 @@
+header{
+      height: 100vh;
+      padding-top: 7rem;
+      /* overflow: hidden; */
+}
+
+.header-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+   
+}
+
+/* CTA  */
+
+.cta{
+   margin-top: 2.5rem;
+   display: flex;
+   gap: 1.2rem;
+   justify-content: center;
+}
+
+/* HEADER SOCIALS */
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header-socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* HEADER IMAGE  */
+
+.me{
+    background: linear-gradient( var(--color-primary), transparent);
+    width: 20rem;
+    height: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: -1rem 2rem 2rem 2rem;
+}
+
+/* SCROLL */
+
+.scroll-down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width:1000px) {
+   header{
+    height: 68vh;
+   }
+}
+
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media  screen and (max-width: 700px) {
+   header{
+    height: 100vh;
+    margin-left: 4rem;
+   }
+
+     .header-container h1{
+        white-space: nowrap;
+    } 
+
+    .header-socials,.scroll-down{
+    display: none;
+    }
+
+    .me{
+        margin-left: 3rem;
+        overflow: hidden;
+        height: 20rem;
+        width: 20rem;
+    } 
+
+     .cta{
+        margin-left: 3rem;
+    }
+    .btn{
+        white-space: nowrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 12rem;
+        height: 3rem;
+        font-size: 1rem;
+        left: 2rem;
+    }
+     
+     .header-container h4,
+    .header-container h3{
+        margin-left: 3rem;
+    }
+     .header-container h1{
+        margin-left: -1rem;
+     } 
+}
+
+
+
