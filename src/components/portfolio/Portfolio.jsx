@@ -20,8 +20,8 @@ const Portfolio = () => {
     id: 2,
     image: Gym,
     title: 'Gym Website',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
-    demo: 'https://foodhaven.netlify.app/'
+    github: 'https://github.com/SameerChaudharyOp/FitClub-Gym-Website',
+    demo: 'https://your-personal-fit-club.netlify.app/'
     },
      {
     id: 3,
