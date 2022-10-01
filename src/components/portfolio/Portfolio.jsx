@@ -2,10 +2,10 @@ import React from 'react'
 import './Portfolio.css'
 import News from '../../assets/News.jpg'
 import Gym from '../../assets/Gym.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import food from '../../assets/food.jpg'
+import clock from '../../assets/clock.jpg'
+import calculator from '../../assets/calculator.jpg'
+import realtime from '../../assets/realtime.png'
 
 const Portfolio = () => {
  const data = [
@@ -13,7 +13,7 @@ const Portfolio = () => {
     id: 1,
     image: News,
     title: 'Real Time News Webstite',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
+    github: 'https://github.com/SameerChaudharyOp/NewsOG',
     demo: 'https://foodhaven.netlify.app/'
     },
      {
@@ -25,31 +25,31 @@ const Portfolio = () => {
     },
      {
     id: 3,
-    image: IMG3,
+    image: food,
     title: 'Food Haven',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
+    github: 'https://github.com/SameerChaudharyOp/FoodHaven',
     demo: 'https://foodhaven.netlify.app/'
     },
      {
     id: 4,
-    image: IMG4,
+    image: clock,
     title: 'Digital Clock',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
-    demo: 'https://foodhaven.netlify.app/'
+    github: 'https://github.com/SameerChaudharyOp/Digital-Clock',
+    demo: 'https://sameerchaudharyop.github.io/Digital-Clock/'
     },
      {
     id: 5,
-    image: IMG5,
+    image: calculator,
     title: 'Calculator',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
-    demo: 'https://foodhaven.netlify.app/'
+    github: 'https://github.com/SameerChaudharyOp/Calculator/settings/pages',
+    demo: 'https://sameerchaudharyop.github.io/Calculator/'
     },
      {
     id: 6,
-    image: IMG6,
+    image: realtime,
     title: 'Real Time Charcter Counter',
-    github: 'https://github.com/SameerChaudharyOp/1st-React-Website',
-    demo: 'https://foodhaven.netlify.app/'
+    github: 'https://github.com/SameerChaudharyOp/Real-Time-Character-Counter',
+    demo: 'https://sameerchaudharyop.github.io/Real-Time-Character-Counter/'
     }
  ]
 

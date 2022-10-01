@@ -42,7 +42,7 @@ const form = useRef();
         <BsWhatsapp className='contact-option-icon'/>
        <h4>WhatsApp</h4>
        <h5>9619753930</h5>
-       <a href="https://api.whatsapp.com/send?phone=9619753930" target="_blank" rel="noopener noreferrer">Send A Message</a>
+       <a href="https://wa.me/919619753930" target="_blank" rel="noopener noreferrer">Send A Message</a>
         </article>
       </div>
 
