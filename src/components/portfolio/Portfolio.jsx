@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
-import News from '../../assets/News.jpg'
-import Gym from '../../assets/Gym.jpg'
+import Gym  from '../../assets/Gym.jpg'
+import todo from '../../assets/todo.jpg'
 import food from '../../assets/food.jpg'
 import clock from '../../assets/clock.jpg'
 import calculator from '../../assets/calculator.jpg'
@@ -11,17 +11,17 @@ const Portfolio = () => {
  const data = [
   {
     id: 1,
-    image: News,
-    title: 'Real Time News Webstite',
-    github: 'https://github.com/SameerChaudharyOp/NewsOG',
-    demo: 'https://foodhaven.netlify.app/'
+    image: Gym,
+    title: 'Gym Responsive Website',
+    github: 'https://github.com/SameerChaudharyOp/FitClub-Gym-Website',
+    demo: 'https://your-personal-fit-club.netlify.app/'
     },
      {
     id: 2,
-    image: Gym,
-    title: 'Gym Website',
-    github: 'https://github.com/SameerChaudharyOp/FitClub-Gym-Website',
-    demo: 'https://your-personal-fit-club.netlify.app/'
+    image: todo,
+    title: 'Todo List',
+    github: 'https://github.com/SameerChaudharyOp/TodoList-2-React-Project',
+    demo: 'https://sam-reminders.netlify.app/'
     },
      {
     id: 3,

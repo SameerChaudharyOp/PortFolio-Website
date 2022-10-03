@@ -36,7 +36,7 @@ const data=[
    {
     avatar: AVTR4,
     name:"liza ahm",
-    review: 'i dk what to write here for now so just writing shit here so plz ignore this ok yes bye no yes hii ok no'
+    review: 'i dk what to write here for now (Work In Progress)'
   }
 ]
 
