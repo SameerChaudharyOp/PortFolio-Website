@@ -21,17 +21,17 @@ const data=[
   {
     avatar: AVTR1,
     name:"Tine Snow",
-    review: 'i dk what to write here for now so just writing shit here so plz ignore this ok yes bye no yes hii ok no'
+    review: 'i dk what to write here for now (Work In Progress)'
   },
    {
     avatar: AVTR2,
     name:"Peter Parker",
-    review: 'i dk what to write here for now so just writing shit here so plz ignore this ok yes bye no yes hii ok no'
+    review: 'i dk what to write here for now (Work In Progress)'
   },
    {
     avatar: AVTR3,
     name:"John sonw",
-    review: 'i dk what to write here for now so just writing shit here so plz ignore this ok yes bye no yes hii ok no'
+    review: 'i dk what to write here for now (Work In Progress)'
   },
    {
     avatar: AVTR4,
